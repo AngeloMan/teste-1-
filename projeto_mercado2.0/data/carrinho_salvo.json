@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "ovo",
+    "preco": 14.0,
+    "quantia": 1.0,
+    "total_produto": 14.0
+  },
+  {
+    "nome": "banana ",
+    "preco": 5.0,
+    "quantia": 20.0,
+    "total_produto": 100.0
+  }
+]
