@@ -73,7 +73,7 @@ if __name__ == '__main__':
     for i in lista:
         print(i)
 
-# #!/bin/python3
+# racunho
 
 # import math
 # import os
