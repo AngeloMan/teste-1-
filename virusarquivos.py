@@ -26,7 +26,7 @@ while True:
             raise Exception
         
     except BaseException:
-        #dir_p = penultimo #pra deixar mais de boa senão ferra o pc inteiro
+        #dir_p = penultimo #descomentar para deixar mais de boa senão ferra o pc inteiro
         # print('limite f', dir_p)
         break
 # dir_p = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
