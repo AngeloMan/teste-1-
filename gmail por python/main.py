@@ -79,11 +79,12 @@ if __name__ == "__main__":
             if opcao == 2:
                 clear()
                 if historico_emails:
-                    for i in historico_emails:
-                        print(i)
+                    for i in reversed(historico_emails):
+                        print(f"Remetente: {i['remetente']}\nDestinatario: {i['destinatario']}\nAssunto: {i['assunto']}\nData: {i['data']}\n")
                 else:
                     print("Historico vazio!")
                 input()
-            
+            if opcao == 3:
+                break
             clear()
             continue
